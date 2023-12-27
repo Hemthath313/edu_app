@@ -5,6 +5,13 @@ class LoginPageView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: [
+        SizedBox(
+          child: Image.asset('assets/images/loginScreenLogo.png',),
+          height: 100,
+        )
+      ],
+    );
   }
 }

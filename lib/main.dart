@@ -13,6 +13,7 @@ class educationalApp extends StatelessWidget {
       routerDelegate: AppRouter.router.routerDelegate,
       routeInformationParser: AppRouter.router.routeInformationParser,
       routeInformationProvider: AppRouter.router.routeInformationProvider,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
