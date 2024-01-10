@@ -11,6 +11,8 @@ class LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+      resizeToAvoidBottomInset: true,
+      backgroundColor: Color(0xffFCFCFC),
       body: LoginPageView(),
     );
   }

@@ -22,7 +22,7 @@ class SplashViewScreen extends StatelessWidget {
             ),
             SizedBox(height: constraints.maxHeight * 0.1),
             Text(
-              AppConstants.SplashScreenTitle,
+              AppConstants.splashScreenTitle,
               style: TextStyle(
                 fontSize: constraints.maxHeight * 0.05,
                 fontWeight: FontWeight.w600,
