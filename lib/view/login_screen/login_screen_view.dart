@@ -37,6 +37,7 @@ class _LoginPageViewState extends State<LoginPageView> {
                   email: _emailController.text.trim(),
                   password: _passwordController.text,
                 );
+                context.push(PagePath.homeScreen);
               } catch (e) {
                 debugPrint("error signin :$e");
                 String errorMessage = "incorrect email and password";
