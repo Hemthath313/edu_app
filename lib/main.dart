@@ -4,7 +4,12 @@ import 'package:firebase_core/firebase_core.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+      options: const FirebaseOptions(
+          apiKey: "AIzaSyCDsYEFFCqY_Sw25KW23JHpE_902CKhuHE",
+          appId: "1:936486552510:android:654ef9d1b59b8bb3b6efefe",
+          projectId: "edu-app-87b5d",
+          messagingSenderId: ''));
   runApp(const educationalApp());
 }
 
