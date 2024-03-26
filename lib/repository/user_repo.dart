@@ -4,8 +4,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class UserRepository {
-  final CollectionReference _usersCollection = FirebaseFirestore.instance.collection('edu-app');
   final FirebaseAuth _auth = FirebaseAuth.instance;
+  final CollectionReference _usersCollection = FirebaseFirestore.instance.collection('edu-app');
 
   Future<String?> createUser(Usermodel user) async {
     try {
@@ -27,7 +27,8 @@ class UserRepository {
     }
   }
 
-  Future<User?> signInWithEmailAndPassword(String email, String password) async {
+  Future<User?> signInWithEmailAndPassword(
+      String email, String password) async {
     try {
       UserCredential userCredential = await _auth.signInWithEmailAndPassword(
         email: email,
