@@ -1,4 +1,3 @@
-import 'package:edu_app/view/chat_tab/chat_view.dart';
 import 'package:flutter/material.dart';
 
 class ChatScreen extends StatelessWidget {
@@ -9,7 +8,7 @@ class ChatScreen extends StatelessWidget {
     return const Scaffold(
       resizeToAvoidBottomInset: true,
       backgroundColor: Color(0xffFCFCFC),
-      body: ChatTab(),
+      body: Text("hello"),
     );
   }
 }

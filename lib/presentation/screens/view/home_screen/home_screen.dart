@@ -1,5 +1,5 @@
 import 'package:edu_app/Providers/user_provider.dart';
-import 'package:edu_app/view/home_screen/home_view.dart';
+import 'package:edu_app/presentation/screens/view/home_screen/home_view.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 
